@@ -1,0 +1,25 @@
+version: '3.9'
+services:
+  app:
+    build: .
+    container_name: simple-python-server
+    # command: sh -c "cd /app && watchgod --ext py,json,yml,yaml 'uvicorn main:app --host 0.0.0.0 --port 80'"
+    # command: sh -c "cd /app && watchgod --ext py,json,yml,yaml uvicorn main:app --host 0.0.0.0 --port 80"
+    # command: hupper -m uvicorn main:app
+    command: sh -c "hupper -m uvicorn main:app --host 0.0.0.0 --port 80 "
+    # command: sh -c "livereload 'uvicorn main:app --host 0.0.0.0 --port 80'"
+    environment:
+      - HUPPER_RELOAD_PATTERN=*
+    # command: uvicorn main:app --host 0.0.0.0 --port 80 --reload
+    # command: uvicorn main:app --host 0.0.0.0 --port 80 --reload --reload-dir /app --reload-include * 
+    # command: uvicorn main:app --host 0.0.0.0 --port 80 --reload --reload-include *
+    # command: sh -c "cd /app && uvicorn main:app --host 0.0.0.0 --port 80"
+    ports:
+      - 8080:80
+    volumes:
+      - .:/app
+    # volumes:
+    #   - type: bind
+    #     source: .
+    #     target: /app
+    # working_dir: /app

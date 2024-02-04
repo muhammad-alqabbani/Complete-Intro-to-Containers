@@ -1,0 +1,17 @@
+{
+  "name": "tuitto",
+  "version": "1.0.0",
+  "description": "**Enterprise Cloud Infrastructure Course**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "hapi-pino": "^12.1.0",
+    "pino-pretty": "^10.3.1"
+  }
+}

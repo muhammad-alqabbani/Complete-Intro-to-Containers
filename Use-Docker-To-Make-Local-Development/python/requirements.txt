@@ -1,0 +1,7 @@
+fastapi
+pydantic
+uvicorn
+watchfiles
+watchgod
+hupper
+livereload
