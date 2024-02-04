@@ -78,3 +78,20 @@ _Resources and Downloads_
 
 -   [Course Website](https://btholt.github.io/complete-intro-to-computer-science/)
 -   [Course GitHub Repo](https://github.com/btholt/complete-intro-to-computer-science)
+
+16- [Visual Studio Code Can Do That?](https://frontendmasters.com/courses/customize-vs-code/)
+- [GitHub Repo](https://github.com/burkeholland/workshop-vs-code-can-do-that)
+- [Course Website](https://burkeholland.gitbook.io/vs-code-can-do-that/)
+
+17- [Serverless with AWS Lambda](https://frontendmasters.com/courses/serverless-aws/)
+- [Code on Github](https://github.com/FrontendMasters/serverless-with-aws)
+
+18- [Firebase Fundamentals](https://frontendmasters.com/courses/firebase/)
+- [Course Notes & Code](https://frontend-masters-firebase.web.app/1-intro/)
+- [GitHub Repo](https://github.com/davideast/firebase-fundamentals-frontend-masters)
+
+19- [Enterprise Cloud Infrastructure](https://frontendmasters.com/courses/enterprise-devops/)
+- [Course Slides & Code](https://github.com/ALT-F4-LLC/fem-eci-presentation)
+
+20- [Practical Problem Solving with Algorithms](https://frontendmasters.com/courses/algorithms-practice/)
+- [Course Slides](https://static.frontendmasters.com/assets/courses/2023-04-10-algorithms-practice/algorithms-practice-slides.pdf)
